@@ -1,0 +1,15 @@
+{
+  "name": "socket-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 60000"
+  },
+  "author": "whatsappsdk",
+  "git": "git@github.com:whatsapp-sdk/socket-async.git",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.3.0"
+  }
+}
