@@ -1,15 +1,25 @@
 {
   "name": "socket-async",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "This is a basic socket library, based on net.Socket, it supports asynchronous writing, as well as http and socks5 proxies.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -t 60000"
   },
   "author": "whatsappsdk",
-  "git": "git@github.com:whatsapp-sdk/socket-async.git",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^10.3.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatsapp-sdk/socket-async.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatsapp-sdk/socket-async/issues"
+  },
+  "homepage": "https://github.com/whatsapp-sdk/socket-async#readme"
 }
